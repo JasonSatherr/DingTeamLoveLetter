@@ -2,6 +2,7 @@ import sys
 sys.path.append(".")
 from QuoteAPI import QuoteAPI
 from twilo import TwiloAPI
+from messenger import messenger
 import random
 from datetime import date
 import calendar
@@ -28,6 +29,8 @@ def main():
 
     message = "\nGood " + str(day) + " " + str(chosenNickname) + "!\nHere\'s your daily love quote,\n\n" \
     + "\"" + str(loveQuoteStr) + "\""
+    # messengerHandler = messenger()
+    # messengerHandler.printFriends()
     twilo = TwiloAPI()
     twilo.sendMessage(message)
 
