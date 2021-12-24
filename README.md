@@ -39,5 +39,9 @@ Unfortunately, this bot requires a lot of setup, as a couple of api keys and acc
 3.  ### Next, sign up for a aws account  
 4.  ### Navigate to the aws lambda console, and create a new function.
 5.  ### Upload the zipped aws lambda deployment package we created in step 2.
-6.  ### UNder runtime settings, set Handler to lambda_function.lambda_handler
+6.  ### Under runtime settings, set Handler to lambda_function.lambda_handler
+7.  ### Add a EventBridge (cloudwatch) trigger that runs when you want it to.
+    - I have my schedule expression to be cron(00 16 * * ? *)
+8. ### Finally, add these env variables
+![picture of env vars](env_vars.PNG)
 
