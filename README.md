@@ -28,14 +28,16 @@ Unfortunately, this bot requires a lot of setup, as a couple of api keys and acc
   ---
 
 2.  ### Next, prepare the aws lambda deployment package.
-
+  This is the code that will automatically be run
+  
   1. Move [src](src) and [lambda_function.py](lambda_function.py) into [package](package)
   2. Zip package.
   3. Congrats, this is the package that we shall deploy to AWS Lambda.
 
   ---
 
-3.  ### Next, sign up for a aws account
-      
-4.  
+3.  ### Next, sign up for a aws account  
+4.  ### Navigate to the aws lambda console, and create a new function.
+5.  ### Upload the zipped aws lambda deployment package we created in step 2.
+6.  ### UNder runtime settings, set Handler to lambda_function.lambda_handler
 
