@@ -13,6 +13,7 @@ Unfortunately, this bot requires a lot of setup, as a couple of api keys and acc
 ---
 ## Setup :gear:
 ---
+
 1. ### Firstly, we need to give our bot texting capabilities.
 
   Follow [this twilio quick start guide] (https://www.twilio.com/docs/sms/quickstart/python#sign-up-for-or-sign-in-to-twilio).
