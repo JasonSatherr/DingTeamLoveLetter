@@ -45,3 +45,4 @@ Unfortunately, this bot requires a lot of setup, as a couple of api keys and acc
 8. ### Finally, add these env variables
 ![picture of env vars](env_vars.PNG)
 
+# :partying_face: YAY, YOU NOW HAVE A BOT TO TEXT THE LOVE OF YOUR LIFE EVERYDAY!!
