@@ -43,6 +43,6 @@ Unfortunately, this bot requires a lot of setup, as a couple of api keys and acc
 7.  ### Add a EventBridge (cloudwatch) trigger that runs when you want it to.
     - I have my schedule expression to be cron(00 16 * * ? *)
 8. ### Finally, add these env variables
-![picture of env vars](./Readme Pics and Vids/env_vars.PNG)
+![picture of env vars](./'Readme Pics and Vids'/env_vars.PNG)
 
 # :partying_face: YAY, YOU NOW HAVE A BOT TO TEXT THE LOVE OF YOUR LIFE EVERYDAY!!
