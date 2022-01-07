@@ -2,7 +2,7 @@
 
 This is a bot that will text your loved one a daily quote of love
 
-![video of bot](./ReadmeMedia/loveBotInAction.gif)
+![video of bot](./ReadmeMedia/loveBotInAction.gif =500x1000)
 
 ---
 ## How it works :jigsaw:
